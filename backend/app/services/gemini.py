@@ -24,6 +24,16 @@ class GeminiUnavailable(Exception):
     pass
 
 
+def _model_chain(model: Optional[str]) -> List[str]:
+    """Primary model first, then fallbacks for overload/unavailable errors."""
+    primary = model or settings.model_fast
+    chain = [primary]
+    for fb in ("gemini-3.7-flash", "gemini-3.5-flash", "gemini-3.1-flash-lite"):
+        if fb != primary:
+            chain.append(fb)
+    return chain
+
+
 def _get_client():
     global _client
     if _client is None:
@@ -44,22 +54,35 @@ def generate_structured(
 ) -> T:
     if settings.use_mock:
         raise GeminiUnavailable("mock mode active")
+    from google import genai as _genai
     from google.genai import types
 
-    resp = _get_client().models.generate_content(
-        model=model or settings.model_fast,
-        contents=list(contents),
-        config=types.GenerateContentConfig(
-            system_instruction=system,
-            response_mime_type="application/json",
-            response_schema=schema,
-            temperature=temperature,
-        ),
-    )
-    parsed = getattr(resp, "parsed", None)
-    if parsed is None:
-        raise GeminiUnavailable(f"empty model response: {resp.text[:200] if resp.text else 'n/a'}")
-    return parsed
+    last_error: Exception | None = None
+    for candidate in _model_chain(model):
+        try:
+            resp = _get_client().models.generate_content(
+                model=candidate,
+                contents=list(contents),
+                config=types.GenerateContentConfig(
+                    system_instruction=system,
+                    response_mime_type="application/json",
+                    response_schema=schema,
+                    temperature=temperature,
+                ),
+            )
+            parsed = getattr(resp, "parsed", None)
+            if parsed is None:
+                raise GeminiUnavailable(
+                    f"empty model response: {resp.text[:200] if resp.text else 'n/a'}"
+                )
+            return parsed
+        except GeminiUnavailable:
+            raise
+        except (_genai.errors.ServerError, _genai.errors.ClientError) as e:
+            # 503 overload / 404 model retired -> try next model in the chain
+            last_error = e
+            continue
+    raise GeminiUnavailable(f"all models in chain failed: {last_error}")
 
 
 def pdf_part(data: bytes) -> PartLike:

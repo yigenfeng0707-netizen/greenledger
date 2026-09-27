@@ -19,11 +19,12 @@ app.add_middleware(
 
 app.include_router(api.router, prefix="/api")
 
-_dist = ROOT_DIR / "frontend" / "dist"
-if _dist.exists():
-    app.mount("/", StaticFiles(directory=str(_dist), html=True), name="frontend")
-
 
 @app.get("/healthz")
 def healthz():
     return {"ok": True}
+
+
+_dist = ROOT_DIR / "frontend" / "dist"
+if _dist.exists():
+    app.mount("/", StaticFiles(directory=str(_dist), html=True), name="frontend")

@@ -3,19 +3,19 @@
 > 官网：https://aibuildercup.com （Hack2skill 承办平台）
 > 官方规则以网站 T&C 为准；本清单是操作提醒，不是规则翻译。
 
-## ✅ 0. 报名状态（2026-09-27 更新）
+## ✅ 0. 报名状态（2026-09-27 官方回信更新）
 
 - [x] Hack2skill 账号已存在：FENG YIGEN / fengyigen@qq.com（OTP 邮箱验证登录成功）
 - [x] AI Builder Cup 2026 报名已提交（Initiatives 列表已显示该活动）
-- [ ] **当前状态：Waitlisted（等候主办方审批）** —— Dashboard 被 "You're Waitlisted" 弹窗锁定，
-      Team Management / Forms（球衣尺码表单，9/28 截止）/ Submissions 等均不可操作
-- [ ] 审批通过后：立即检查 Dashboard → 填球衣尺码表单 → 确认赛道 → 组队
-- 备注：个人资料已有姓名/杭州/手机/GitHub/LinkedIn/中国电信 29 年 Project Manager 经历（在职证明充分）；
-       Headline（"- at -" 占位）、Skills、Interests、Education 为空，可在
-       https://hack2skill.com/dashboard/user_private_profile/?userId=6ab79b570fafa48999bcb777&isEdit=true&tabIndex=about
-       点击各行右侧铅笔图标手动补充（自动化点击铅笔不稳定，建议手动）
+- [x] 官方回信（9/27 催办后）：Waitlist 属 early-access 精选审查流程，**审批需 1–2 周**，
+      通过后自动开通 Dashboard。属正常流程，非拒绝信号
+- [ ] **当前状态：Waitlisted（等候审批，预计 10/11 前后出结果）** —— 与组队截止日高度重叠，需注意
+- [ ] 审批通过后：立即确认赛道 + 组队（组队材料提前备好，届时 10 分钟内完成）
+- [x] 球衣尺码表单（9/28 02:26 截止）：审批期内必然错过，仅影响 T 恤，放弃
 - 提交物新增要求（FAQ 确认）：部署链接 + 3 分钟视频 + **公开 GitHub 仓库** + 方案 Deck；
       仅限 Google Cloud 技术栈；必须是活动期间（9/7–10/18）的新项目；一队一题
+- **时间风险**：若审批拖到 10/11 之后，将没有窗口组队 → 可发一封礼貌跟进邮件
+      向 support+aibuildercup@hack2skill.com 说明组队截止日的紧迫性
 
 ## 1. 个人报名（已于 9/27 完成主体流程）
 - [x] 打开 aibuildercup.com → 登录 Hack2skill 账号（fengyigen@qq.com，OTP 验证）

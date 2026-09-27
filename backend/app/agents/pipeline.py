@@ -150,7 +150,7 @@ Return JSON: {"title", "period", "summary", "sections": [{"heading", "content"}]
 """
 
 
-def run_draft(p: Project, items: List[ActivityItem], emissions: List[EmissionResult], gaps: GapAnalysis) -> ReportDraft:
+def run_draft(p: Project, items: List[ActivityItem], emissions: List[EmissionResult], gaps: List[GapItem]) -> ReportDraft:
     total_kg = sum(e.co2e_kg for e in emissions)
     by_scope: Dict[str, float] = {}
     for e in emissions:
@@ -172,7 +172,7 @@ def run_draft(p: Project, items: List[ActivityItem], emissions: List[EmissionRes
             for e in emissions
         ],
         "totals": {"total_tco2e": round(total_kg / 1000.0, 3), **by_scope},
-        "gaps": [g.model_dump() for g in gaps.items],
+        "gaps": [g.model_dump() for g in gaps],
     }
     return gemini.generate_structured(
         [f"Verified data:\n{json.dumps(payload, indent=1)}\n\nWrite the disclosure draft."],
@@ -192,13 +192,13 @@ Return JSON: {"answer", "citations": ["A1", ...]}.
 """
 
 
-def run_qa(p: Project, question: str, items: List[ActivityItem], emissions: List[EmissionResult], gaps: GapAnalysis) -> QAResponse:
+def run_qa(p: Project, question: str, items: List[ActivityItem], emissions: List[EmissionResult], gaps: List[GapItem]) -> QAResponse:
     if settings.use_mock:
         return mock_ai.mock_qa(question, items, emissions, gaps)
     payload = {
         "activity_records": [i.model_dump() for i in items],
         "computed_emissions": [e.model_dump() for e in emissions],
-        "known_gaps": [g.model_dump() for g in gaps.items],
+        "known_gaps": [g.model_dump() for g in gaps],
     }
     return gemini.generate_structured(
         [f"Inventory data:\n{json.dumps(payload, indent=1)}\n\nAuditor question: {question}"],

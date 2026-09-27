@@ -15,8 +15,8 @@ SAMPLE_DIR = ROOT_DIR / "sample_data"
 class Settings:
     def __init__(self) -> None:
         self.gemini_api_key = os.getenv("GEMINI_API_KEY", "")
-        self.model_extract = os.getenv("MODEL_EXTRACT", "gemini-2.5-pro")
-        self.model_fast = os.getenv("MODEL_FAST", "gemini-2.5-flash")
+        self.model_extract = os.getenv("MODEL_EXTRACT", "gemini-3.8-flash")
+        self.model_fast = os.getenv("MODEL_FAST", "gemini-3.8-flash")
         self.mock = os.getenv("MOCK_AI", "").lower() in ("1", "true", "yes")
 
     @property
