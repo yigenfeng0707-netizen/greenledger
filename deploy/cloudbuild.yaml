@@ -1,0 +1,48 @@
+steps:
+  # Build the frontend first (Node build stage) so backend image can copy dist/
+  - name: node:22
+    entrypoint: bash
+    dir: frontend
+    args:
+      - -c
+      - |
+        npm ci || npm install
+        npm run build
+    id: build-frontend
+
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - -t
+      - $_REGION-docker.pkg.dev/$PROJECT_ID/greenledger/api:$SHORT_SHA
+      - .
+    id: build-image
+
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - push
+      - $_REGION-docker.pkg.dev/$PROJECT_ID/greenledger/api:$SHORT_SHA
+    id: push-image
+
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - greenledger-api
+      - --image
+      - $_REGION-docker.pkg.dev/$PROJECT_ID/greenledger/api:$SHORT_SHA
+      - --region
+      - $_REGION
+      - --allow-unauthenticated
+      - --set-secrets
+      - GEMINI_API_KEY=greenledger-gemini-key:latest
+      - --set-env-vars
+      - MOCK_AI=0
+    id: deploy
+
+substitutions:
+  _REGION: asia-southeast1
+
+options:
+  logging: CLOUD_LOGGING_ONLY

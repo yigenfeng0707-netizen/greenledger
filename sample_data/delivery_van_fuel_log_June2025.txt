@@ -1,0 +1,12 @@
+GREENLEAF TRADING CO. - FLEET FUEL LOG
+Vehicle: VAN-02 (Isuzu ELF, diesel), VAN-03 (Isuzu ELF, diesel)
+Month: June 2025
+
+Weekly diesel refills (liters), all diesel from Sinopec station Pudong 114:
+  Week 1 (Jun 2-6):   190 liters of diesel
+  Week 2 (Jun 9-13):  210 liters of diesel
+  Week 3 (Jun 16-20): 205 liters of diesel
+  Week 4 (Jun 23-27): 255 liters of diesel
+
+Total June 2025 diesel: 860 liters of diesel
+Odometer: VAN-02 12,480 km -> 13,910 km; VAN-03 9,875 km -> 11,204 km

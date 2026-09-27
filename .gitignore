@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# runtime data
+backend/data/workspace/
+backend/data/uploads/
+
+# Node
+node_modules/
+frontend/dist/
+
+# secrets & env
+.env
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# internal tooling & strategy notes (not for public repo)
+.zcode/

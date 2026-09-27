@@ -1,0 +1,14 @@
+GREENLEAF TRADING CO. - EMPLOYEE COMMUTE SURVEY SUMMARY
+Quarter: Q2 2025 (April-June, 62 working days)
+Respondents: 32 of 35 employees
+
+Mode split (average one-way distance):
+- Car (petrol, private): 14 employees, average 15 km/day by car
+- Metro: 12 employees (2.1 million passenger-km annualized company-wide - not used here)
+- Bus / walk / cycle: 6 employees
+
+Aggregate for Q2 2025: car commuters covered a combined 25,960 km
+(calculation: 14 employees x 15 km/day x 2 (round trip) x 62 days = 26,040 km;
+2 employees were on leave, and the confirmed aggregate above already excludes them)
+
+Hotel stays (Ningbo supplier visits): 12 nights total

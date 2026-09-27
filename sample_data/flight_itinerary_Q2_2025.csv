@@ -1,0 +1,6 @@
+date,route,from,to,passengers,distance_km,cabin,purpose
+2025-04-15,SHA-NRT,Shanghai,Tokyo,2,1760,Economy,Client meeting
+2025-05-08,PVG-SIN,Shanghai,Singapore,1,3780,Economy,Supplier audit
+2025-05-21,PVG-ICN,Shanghai,Seoul,3,870,Economy,Trade fair
+2025-06-12,HKG-BKK,Hong Kong,Bangkok,1,1230,Economy,Regional review
+2025-06-27,PVG-SYD,Shanghai,Sydney,1,7870,Economy,Partner conference

@@ -1,0 +1,19 @@
+SHANGHAI POWER SUPPLY COMPANY
+ELECTRICITY BILL - ACCOUNT 3101-4482-00
+
+Customer:        GreenLeaf Trading Co., Ltd.
+Service Address: Unit 801, 88 Century Avenue, Pudong, Shanghai
+Billing Period:  June 2025 (2025-06-01 to 2025-06-30)
+
+Meter No.        Previous Reading    Current Reading    Multiplier
+P02183441        41,250.00 kWh       47,250.00 kWh      1
+
+Rate Schedule:   Commercial - General (B)
+Energy Charge:   6,000.00 kWh x 0.852 CNY/kWh = 5,112.00 CNY
+Demand Charge:   18 kW x 39.00 CNY/kW = 702.00 CNY
+
+Total consumption for June 2025: 6,000 kWh
+Amount Due: 5,988.60 CNY (incl. VAT)
+Due Date: 2025-07-20
+
+Note: All consumption figures stated on this bill are metered.

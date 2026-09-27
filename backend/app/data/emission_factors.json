@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "note": "Illustrative reference factors for the demo. Replace with authoritative local factors (e.g. national grid mixes) before any external reporting.",
+    "sources": [
+      "US EPA GHG Emission Factors Hub (2024)",
+      "UK DEFRA/DESNZ GHG conversion factors (2024)",
+      "IPCC AR6 GWP values"
+    ]
+  },
+  "factors": [
+    {"id": "electricity_grid", "name": "Grid electricity (purchased)", "category": "electricity", "keywords": ["electricity", "power", "kwh", "grid", "utility", "meter"], "value": 0.4179, "unit": "kWh", "co2e_unit": "kgCO2e/kWh", "scope": 2, "source": "US EPA eGRID US average, 2023"},
+    {"id": "natural_gas", "name": "Natural gas (stationary combustion)", "category": "natural_gas", "keywords": ["natural gas", "gas meter", "m3", "cubic meter", "heating"], "value": 1.9, "unit": "m3", "co2e_unit": "kgCO2e/m3", "scope": 1, "source": "EPA GHG Emission Factors Hub, 2024"},
+    {"id": "diesel", "name": "Diesel (mobile/stationary combustion)", "category": "diesel", "keywords": ["diesel", "fuel", "liter", "litre", "van", "truck", "generator"], "value": 2.68, "unit": "liter", "co2e_unit": "kgCO2e/liter", "scope": 1, "source": "EPA GHG Emission Factors Hub, 2024"},
+    {"id": "gasoline", "name": "Gasoline/petrol (mobile combustion)", "category": "gasoline", "keywords": ["petrol", "gasoline", "fuel", "car", "liter", "litre"], "value": 2.31, "unit": "liter", "co2e_unit": "kgCO2e/liter", "scope": 1, "source": "EPA GHG Emission Factors Hub, 2024"},
+    {"id": "lpg", "name": "LPG (liquefied petroleum gas)", "category": "lpg", "keywords": ["lpg", "propane", "butane"], "value": 1.51, "unit": "liter", "co2e_unit": "kgCO2e/liter", "scope": 1, "source": "DEFRA 2024"},
+    {"id": "air_short_haul", "name": "Air travel, short haul (<3,700 km)", "category": "air_travel", "keywords": ["flight", "air", "short haul", "economy"], "value": 0.15102, "unit": "passenger-km", "co2e_unit": "kgCO2e/passenger-km", "scope": 3, "source": "UK DEFRA 2024, with RF"},
+    {"id": "air_long_haul", "name": "Air travel, long haul (>=3,700 km)", "category": "air_travel", "keywords": ["flight", "air", "long haul", "international"], "value": 0.14787, "unit": "passenger-km", "co2e_unit": "kgCO2e/passenger-km", "scope": 3, "source": "UK DEFRA 2024, with RF"},
+    {"id": "rail", "name": "Rail (light rail/tram/metro)", "category": "rail", "keywords": ["rail", "train", "metro", "subway", "tram"], "value": 0.0412, "unit": "passenger-km", "co2e_unit": "kgCO2e/passenger-km", "scope": 3, "source": "UK DEFRA 2024"},
+    {"id": "road_passenger_car", "name": "Passenger car, average petrol", "category": "road_passenger", "keywords": ["car", "commute", "taxi", "ride", "km"], "value": 0.17015, "unit": "km", "co2e_unit": "kgCO2e/km", "scope": 3, "source": "UK DEFRA 2024"},
+    {"id": "freight_road", "name": "Road freight (HGV average)", "category": "freight", "keywords": ["freight", "delivery", "haulage", "tonne-km", "shipping"], "value": 0.10749, "unit": "tonne-km", "co2e_unit": "kgCO2e/tonne-km", "scope": 3, "source": "UK DEFRA 2024"},
+    {"id": "waste_landfill", "name": "Waste to landfill, mixed municipal", "category": "waste", "keywords": ["waste", "landfill", "trash", "rubbish", "garbage"], "value": 467.0, "unit": "tonne", "co2e_unit": "kgCO2e/tonne", "scope": 3, "source": "EPA GHG Emission Factors Hub, 2024"},
+    {"id": "waste_recycled", "name": "Recycled mixed recyclables", "category": "waste", "keywords": ["recycled", "recycling", "paper waste"], "value": 21.3, "unit": "tonne", "co2e_unit": "kgCO2e/tonne", "scope": 3, "source": "EPA GHG Emission Factors Hub, 2024"},
+    {"id": "paper", "name": "Paper (purchased)", "category": "paper", "keywords": ["paper", "office supplies", "printing"], "value": 0.93, "unit": "kg", "co2e_unit": "kgCO2e/kg", "scope": 3, "source": "DEFRA material use factors"},
+    {"id": "water_supply", "name": "Water supply (treated tap water)", "category": "water", "keywords": ["water", "tap", "supply"], "value": 0.344, "unit": "m3", "co2e_unit": "kgCO2e/m3", "scope": 3, "source": "UK DEFRA 2024"},
+    {"id": "hotel_night", "name": "Hotel stay (average)", "category": "hotel", "keywords": ["hotel", "accommodation", "night", "stay"], "value": 14.0, "unit": "night", "co2e_unit": "kgCO2e/night", "scope": 3, "source": "DEFRA hotel stay, per room-night"},
+    {"id": "refrigerant_r410a", "name": "Refrigerant R410A (fugitive emissions)", "category": "refrigerant", "keywords": ["refrigerant", "r410a", "ac", "air conditioning", "leak"], "value": 2088.0, "unit": "kg", "co2e_unit": "kgCO2e/kg", "scope": 1, "source": "IPCC AR6 GWP100"}
+  ]
+}
