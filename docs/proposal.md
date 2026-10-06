@@ -5,7 +5,7 @@
 **Team:** GreenLedger (1 confirmed member as of 2026-10-06; recruiting to 2–4)  
 **Prototype URL:** not deployed yet (target: Cloud Run service `greenledger-api` in `asia-southeast1` on GCP project `greenledger-aibc`)  
 **Public GitHub:** https://github.com/yigenfeng0707-netizen/greenledger  
-**Demo video URL:** local file only — `demo-output/GreenLedger_demo_cinematic_3min.mp4` (178s, not uploaded; `docs/demo-video.md`)
+**Demo video URL:** https://youtu.be/n2NBXwpXshQ (Unlisted, 2:59 / 178s; local source `demo-output/GreenLedger_demo_cinematic_3min.mp4`)
 
 This draft maps to the published rubric: Technical 40% · Problem fit & impact 25% · Innovation 25% · UX 10%. Export to PDF before the 18 October 2026 submission. Do not treat placeholder links as live.
 
@@ -94,7 +94,7 @@ Official team formation closes **11 October 2026**. Platform rule: at least two 
 | Artifact | Status on 2026-10-06 |
 |---|---|
 | Public Cloud Run / Firebase URL | **Missing** — blocked on GCP billing / official credits |
-| 3-minute English video | **Local MP4 only** — `demo-output/GreenLedger_demo_cinematic_3min.mp4` (178s). No YouTube/Vimeo/Drive URL yet |
+| 3-minute English video | **https://youtu.be/n2NBXwpXshQ** (YouTube Unlisted, 2:59). Local MP4 remains gitignored |
 | Proposal PDF | `docs/proposal.pdf` |
 | Public GitHub | https://github.com/yigenfeng0707-netizen/greenledger |
 | Slide deck | `docs/greenledger-deck.pptx` + `docs/greenledger-deck.pdf` (10 slides) |

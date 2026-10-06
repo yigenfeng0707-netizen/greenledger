@@ -1,6 +1,6 @@
 # Demo video — how to reproduce
 
-Local cinematic MP4 only. **Not uploaded** to YouTube / Vimeo / Drive.
+Local cinematic MP4 (gitignored) plus published watch URL: **https://youtu.be/n2NBXwpXshQ** (YouTube Unlisted, 2:59, 2026-10-06).
 
 ## Output
 
@@ -82,6 +82,8 @@ Local file: `demo-output/GreenLedger_demo_cinematic_3min.mp4` (**178s**, gitigno
 3. Title: `GreenLedger — AI Builder Cup 2026 demo`
 4. Visibility: **Unlisted** (or Public). Wait until processing finishes.
 5. Copy the watch URL (`youtube.com/watch?v=...`) and paste it into `docs/proposal.md` section 7 and the Hack2skill form.
+
+**Done (2026-10-06):** Unlisted watch URL https://youtu.be/n2NBXwpXshQ (title in Studio may still show the filename until edited).
 
 **Google Drive (public link)**
 

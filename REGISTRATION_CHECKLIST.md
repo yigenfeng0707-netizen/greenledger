@@ -103,7 +103,7 @@
 - [x] **2026-10-06 本机核验**：gcloud 已登录；项目 ACTIVE；**billingEnabled=false**；
       该账号 **0 个 billing account**；`run.googleapis.com` 未启用。命令已写在
       `deploy/README_deploy.md`，**在绑结算前不要假装已部署**
-- [ ] 确认能访问：aibuildercup.com、YouTube/Vimeo/Drive（视频托管三选一）
+- [x] 确认能访问：aibuildercup.com、YouTube（demo Unlisted：https://youtu.be/n2NBXwpXshQ）
 - [ ] 加入比赛官方 Discord：https://discord.gg/x5GRzJbKpa（关注 credits 发放与赛道讲解）
       可粘贴组队话术：`docs/team_invite.md`
 
@@ -117,9 +117,9 @@ https://aibuildercup.com/Faqs.html 与 https://aibuildercup.com/themes.html ）�
       `docs/greenledger-deck.pptx` + `docs/greenledger-deck.pdf`（10 页，重建：`python docs/build_deck.py`）。
 - [ ] **可运行原型 HTTPS**：Cloud Run 或 Firebase（`deploy/README_deploy.md`；
       2026-10-06 仍无 URL；Firebase 静态站**不能**绕过结算）。
-- [ ] **3 分钟英文视频**：本地 MP4 已合成
-      `demo-output/GreenLedger_demo_cinematic_3min.mp4`（**178s**，未上传）。
-      复现：`docs/demo-video.md`。队长上传 YouTube/Vimeo/Drive 后才算提交。
+- [x] **3 分钟英文视频**：https://youtu.be/n2NBXwpXshQ （YouTube Unlisted，2:59）。
+      本地源文件 `demo-output/GreenLedger_demo_cinematic_3min.mp4`（gitignored）。
+      复现：`docs/demo-video.md`。Hack2skill 提交表填此链接。
 - [x] **公开 GitHub**：https://github.com/yigenfeng0707-netizen/greenledger （public；MP4 未进 git）
 - [ ] 提交前自查：赛道 Sustainability & Social Impact、全英文、链接无痕可开
 

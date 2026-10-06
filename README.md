@@ -94,6 +94,6 @@ LICENSE                            MIT
 ## Next engineering steps
 
 1. Attach GCP billing or contest credits to `greenledger-aibc`, then deploy (`deploy/README_deploy.md`). Firebase Hosting without billing does **not** replace the API.
-2. Upload `demo-output/GreenLedger_demo_cinematic_3min.mp4` (178s English; see `docs/demo-video.md`) to YouTube/Vimeo/Drive.
+2. Demo video (Unlisted): https://youtu.be/n2NBXwpXshQ (178s; see `docs/demo-video.md`).
 3. Public GitHub: https://github.com/yigenfeng0707-netizen/greenledger (already pushed).
 4. Deck is `docs/greenledger-deck.pptx` / `.pdf` (10 slides). Long-form remains `docs/proposal.pdf`.

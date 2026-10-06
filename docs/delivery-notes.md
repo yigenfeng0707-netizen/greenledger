@@ -13,7 +13,7 @@ https://github.com/yigenfeng0707-netizen/greenledger (public, SSH push 2026-10-0
 | Voice | English TTS `en-US-JennyNeural` + burned ASS |
 | Product footage | Mock-mode six-step UI (Gemini extract is too slow for a 3-minute take) |
 | Gemini numbers | On-screen card **13.69 tCO2e**; gap count spoken as 5–6 |
-| Public URL | **None** — not uploaded to YouTube / Vimeo / Drive |
+| Public URL | **https://youtu.be/n2NBXwpXshQ** (YouTube Unlisted, 2026-10-06) |
 | Reproduce | `docs/demo-video.md` |
 
 ## Deck
