@@ -39,14 +39,19 @@ Drop messy documents → get an audit-grade, IFRS S2-aligned GHG disclosure draf
 
 ## 5. Impact & scale (≈0.5 page) — feeds the 25% impact score
 - Demo: synthetic SME (35 staff, trading company) fully inventoried from 6
-  documents in minutes: 14.0 tCO2e across Scopes 1–3, 4 disclosure gaps flagged.
+  documents in minutes: **13.69 tCO2e** across Scopes 1–3 (reconfirmed 2026-10-06),
+  **5–6** disclosure gaps depending on the Gemini draw (commit `2c654a8` = 6;
+  2026-10-06 dry-run = 5). Mock mode is 14.00 tCO2e / 4 canned gaps — do not
+  quote mock figures in the PDF if the video shows Gemini.
 - "Build in JAPAC, for the world": factor library is locale-parametric — ship
   SG/HK/JP/AU grid factors; same pipeline, any disclosure framework.
 - Business model: per-report SaaS for SMEs; white-label to banks' SME lending
   (financed-emissions data) — name the wedge, keep it short.
 
 ## 6. Team (≈0.25 page)
-- Roles + one-line backgrounds; state availability through Dec 4 finale.
+- Confirmed: FENG YIGEN (leader, backend/AI). Open: frontend/full-stack, English
+  narrative. State availability through Dec 4 finale. Do not list waitlisted names.
 
 ## 7. Link
 - Deployed prototype URL + 3-minute video link (unlisted OK where allowed).
+- As of 2026-10-06 both URLs are still blank; full draft: `docs/proposal.md`.

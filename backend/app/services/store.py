@@ -76,7 +76,11 @@ def add_document(pid: str, file_name: str, mime_type: str, size: int, raw: bytes
 
 
 def load_sample_documents(pid: str, sample_dir) -> int:
-    """Copy the bundled sample files into the project as documents."""
+    """Copy the bundled sample files into the project as documents.
+
+    Loads txt/csv only so mock extract stays text-stable. Tiny PDFs in the
+    same folder are for a manual Gemini multimodal upload in the demo video.
+    """
     p = get_project(pid)
     if p is None:
         raise KeyError(f"project {pid} not found")

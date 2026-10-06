@@ -34,6 +34,10 @@ Stack: **FastAPI + Google ADK-style agents on Gemini API** (backend, Cloud Run) 
 **React/Vite** (frontend, Firebase Hosting or same-service static) · bundled
 illustrative emission-factor library (EPA/DEFRA-based).
 
+License: **MIT** (`LICENSE`). The public FAQ requires a **public GitHub** repo
+([Faqs.html](https://aibuildercup.com/Faqs.html), 2026-10-06). This clone has
+**no git remote** yet.
+
 ## Quickstart
 
 ```bash
@@ -72,10 +76,11 @@ backend/app/services/orchestrator.py  pipeline orchestration, IDs, audit, totals
 backend/app/services/mock_ai.py    offline mock agents (demo without a key)
 backend/app/data/emission_factors.json  curated factor library (16 factors)
 frontend/src/components/           Upload / Review / Emissions / Gaps / Report / Ask steps
-sample_data/                       synthetic "GreenLeaf Trading Co." demo documents
-docs/                              proposal outline & 3-min video storyboard
+sample_data/                       synthetic GreenLeaf docs (txt/csv + 2 tiny PDFs)
+docs/                              proposal (md+pdf), storyboard, narration
 deploy/                            Cloud Build + Cloud Run deployment
-REGISTRATION_CHECKLIST.md          competition registration steps (do this first!)
+REGISTRATION_CHECKLIST.md          competition registration steps
+LICENSE                            MIT
 ```
 
 ## Competition timeline (from aibuildercup.com)
@@ -83,13 +88,13 @@ REGISTRATION_CHECKLIST.md          competition registration steps (do this first
 | Milestone | Date |
 |---|---|
 | Registration + team formation (2–4 people) | by **2026-10-11** |
-| Working prototype submission (proposal + deployed link + 3-min video, all English) | by **2026-10-18** |
+| Working prototype (deployed HTTPS + public GitHub + deck/PDF + <3 min video) | by **2026-10-18** |
 | Finalists announced | 2026-11-07 |
 | Grand Finale Demo Day, Singapore | 2026-12-04 |
 
 ## Next engineering steps
 
-1. Replace bundled factors with authoritative local grid factors per market.
-2. Add PDF/image sample docs for the video demo (multimodal showcase).
-3. Deploy to Cloud Run (`deploy/`) and record the 3-minute English demo.
-4. Draft the English proposal from `docs/proposal_outline.md`.
+1. Attach GCP billing or contest credits to `greenledger-aibc`, then deploy (`deploy/README_deploy.md`). Firebase Hosting without billing does **not** replace the API.
+2. Upload `demo-output/GreenLedger_demo_cinematic_3min.mp4` (178s English; see `docs/demo-video.md`) to YouTube/Vimeo/Drive.
+3. Create a **public GitHub** remote when ready (FAQ-mandatory). Do not invent the URL in the proposal until it exists.
+4. Deck is `docs/greenledger-deck.pptx` / `.pdf` (10 slides). Long-form remains `docs/proposal.pdf`.

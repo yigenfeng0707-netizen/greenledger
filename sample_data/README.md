@@ -10,5 +10,11 @@ consistent and expressed in the units of the bundled emission-factor library
 (kWh, m3, liter, passenger-km, tonne, km, night) so the mock pipeline and the
 Gemini pipeline both produce complete, verifiable results.
 
-Replace these with real-world redacted documents (or public corporate
-sustainability reports) before recording the 3-minute demo video.
+Two extra files are tiny synthetic **PDFs** of the electricity and gas bills
+(`electricity_bill_June2025.pdf`, `natural_gas_bill_June2025.pdf`, ~1–2 KB each).
+Regenerate with `python sample_data/make_sample_pdfs.py`.
+**Load sample company** still uses the six **txt/csv** files so mock totals stay
+stable. For a Gemini multimodal take, upload the two PDFs **instead of** the
+matching `.txt` bills (do not upload both or quantities will double-count).
+
+Keep the `.txt` twins in the folder as the text source of truth for the generator.

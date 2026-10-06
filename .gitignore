@@ -21,3 +21,11 @@ Thumbs.db
 
 # internal tooling & strategy notes (not for public repo)
 .zcode/
+
+# local contest probes / screenshots (do not commit)
+.tmp_*
+.tmp_status_shots/
+
+# demo video factory output (MP4 / webm / TTS)
+demo-output/
+assets/deck-slides/

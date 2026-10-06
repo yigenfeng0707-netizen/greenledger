@@ -1,0 +1,73 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 986 >>
+stream
+BT
+/F1 11 Tf
+50 760 Td
+(Shanghai Power ? electricity bill \(synthetic\)  generated 2026-10-06) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(SHANGHAI POWER SUPPLY COMPANY) Tj
+0 -16 Td
+(ELECTRICITY BILL ? ACCOUNT 3101-4482-00) Tj
+0 -16 Td
+() Tj
+0 -16 Td
+(Customer: GreenLeaf Trading Co., Ltd.  \(FICTIONAL\)) Tj
+0 -16 Td
+(Service Address: Unit 801, 88 Century Avenue, Pudong, Shanghai) Tj
+0 -16 Td
+(Billing Period: June 2025 \(2025-06-01 to 2025-06-30\)) Tj
+0 -16 Td
+(Meter No. P02183441) Tj
+0 -16 Td
+(Previous reading: 41,250.00 kWh) Tj
+0 -16 Td
+(Current reading:  47,250.00 kWh) Tj
+0 -16 Td
+(Multiplier: 1) Tj
+0 -16 Td
+(Rate: Commercial - General \(B\)) Tj
+0 -16 Td
+(Energy: 6,000.00 kWh x 0.852 CNY/kWh = 5,112.00 CNY) Tj
+0 -16 Td
+(Demand: 18 kW x 39.00 CNY/kW = 702.00 CNY) Tj
+0 -16 Td
+(Total consumption for June 2025: 6,000 kWh) Tj
+0 -16 Td
+(Amount Due: 5,988.60 CNY \(incl. VAT\)) Tj
+0 -16 Td
+(Due Date: 2025-07-20) Tj
+0 -16 Td
+(Note: All consumption figures stated on this bill are metered.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000247 00000 n 
+0000001284 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1354
+%%EOF

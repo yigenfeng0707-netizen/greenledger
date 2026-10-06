@@ -1,0 +1,103 @@
+{
+  "name": "GreenLedger",
+  "version": "3min-standard",
+  "durationTargetSeconds": 178,
+  "playwrightDir": "tools/demo-video",
+  "baseUrl": "http://localhost:5173",
+  "healthUrl": "http://127.0.0.1:8010/healthz",
+  "outputDir": "demo-output",
+  "finalMp4": "demo-output/GreenLedger_demo_cinematic_3min.mp4",
+  "viewport": { "width": 1920, "height": 1080 },
+  "voice": "en-US-JennyNeural",
+  "voiceRate": "-4%",
+  "mode": "record",
+  "burnSubtitles": true,
+  "subtitles": true,
+  "crf": 17,
+  "preset": "slow",
+  "audioBitrate": "320k",
+  "scenes": [
+    {
+      "id": "intro",
+      "type": "image",
+      "path": "assets/deck-slides/slide-01.png",
+      "minDuration": 12,
+      "narration": "GreenLedger. An agentic pipeline that turns a shoebox of bills into a cited IFRS S2 greenhouse-gas draft. Track: Sustainability and Social Impact."
+    },
+    {
+      "id": "h1",
+      "type": "image",
+      "path": "assets/deck-slides/slide-02.png",
+      "isChart": false,
+      "minDuration": 22,
+      "narration": "Climate disclosure is now law across Asia-Pacific. For a small supplier, a consulting inventory still costs thousands of dollars and weeks. Their data is not an ERP feed. It is bills, logs, and spreadsheets."
+    },
+    {
+      "id": "h2",
+      "type": "browser",
+      "minDuration": 40,
+      "narration": "This is the product running locally. We load the GreenLeaf sample pack, run the Ingestion Agent, confirm every record, then map factors from a curated library the model cannot invent. This walkthrough uses Mock mode so the six steps complete in seconds. Live Gemini on the same files is on the next card.",
+      "actions": [
+        { "goto": "/" },
+        { "wait": 1500 },
+        { "click": { "role": "button", "name": "Load sample company" } },
+        { "waitFor": { "text": "electricity_bill", "timeout": 15000 } },
+        { "wait": 800 },
+        { "click": { "role": "button", "namePattern": "Run Ingestion Agent" } },
+        { "waitFor": { "text": "Extracted activity records", "timeout": 30000 } },
+        { "wait": 1000 },
+        { "click": { "role": "button", "namePattern": "Confirm all" } },
+        { "wait": 2500 },
+        { "click": { "role": "button", "namePattern": "Run Mapping Agent" } },
+        { "waitFor": { "text": "Total inventory", "timeout": 30000 } },
+        { "wait": 1500 },
+        { "click": { "role": "button", "namePattern": "Run Gap Analysis Agent" } },
+        { "waitFor": { "text": "Disclosure gaps", "timeout": 20000 } },
+        { "wait": 800 },
+        { "click": { "role": "button", "namePattern": "Run Drafting Agent" } },
+        { "waitFor": { "text": "Download", "timeout": 20000 } },
+        { "wait": 800 },
+        { "click": { "role": "button", "name": "Ask" } },
+        { "wait": 800 },
+        { "click": { "role": "button", "name": "Which records drive Scope 2?" } },
+        { "wait": 4000 }
+      ]
+    },
+    {
+      "id": "h3",
+      "type": "image",
+      "path": "assets/deck-slides/slide-06.png",
+      "isChart": true,
+      "minDuration": 28,
+      "narration": "Live Gemini, same samples, twice: twelve activity records, thirteen point six nine tonnes of CO2 equivalent. Scope one two point nine one, scope two two point five one, scope three eight point two seven. Gap count drifted from six to five. In a Gemini recording, read the on-screen gap count. Do not mix those tonnes with Mock's fourteen point zero zero."
+    },
+    {
+      "id": "h4",
+      "type": "image",
+      "path": "assets/deck-slides/slide-03.png",
+      "minDuration": 22,
+      "narration": "Six agents, not a chatbot. Ingestion keeps the verbatim excerpt. Review is mandatory. Mapping is fail-closed. Gaps, cited draft, and grounded Ask. Every action lands in an audit trail."
+    },
+    {
+      "id": "h5",
+      "type": "image",
+      "path": "assets/deck-slides/slide-05.png",
+      "minDuration": 22,
+      "narration": "Technical depth is Gemini multimodal structured extraction and constrained tool-use. The model may pick a factor that exists. Invented factor IDs never enter the inventory. Intended runtime is Cloud Run in Singapore."
+    },
+    {
+      "id": "h6",
+      "type": "image",
+      "path": "assets/deck-slides/slide-07.png",
+      "minDuration": 16,
+      "narration": "The users are SME finance leads in JAPAC supply chains. The unit of work is the source document. Citations are the product, because that is what a buyer's sustainability team actually asks for."
+    },
+    {
+      "id": "outro",
+      "type": "image",
+      "path": "assets/deck-slides/slide-10.png",
+      "minDuration": 12,
+      "narration": "GreenLedger. Disclosure-grade sustainability for the companies the value chain actually runs on. Prototype URL pending Cloud Run credits. This file is a local demo, not a YouTube upload."
+    }
+  ]
+}
