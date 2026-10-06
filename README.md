@@ -34,9 +34,8 @@ Stack: **FastAPI + Google ADK-style agents on Gemini API** (backend, Cloud Run) 
 **React/Vite** (frontend, Firebase Hosting or same-service static) · bundled
 illustrative emission-factor library (EPA/DEFRA-based).
 
-License: **MIT** (`LICENSE`). The public FAQ requires a **public GitHub** repo
-([Faqs.html](https://aibuildercup.com/Faqs.html), 2026-10-06). This clone has
-**no git remote** yet.
+License: **MIT** (`LICENSE`). Public repo: https://github.com/yigenfeng0707-netizen/greenledger
+([Faqs.html](https://aibuildercup.com/Faqs.html) required this, 2026-10-06).
 
 ## Quickstart
 
@@ -96,5 +95,5 @@ LICENSE                            MIT
 
 1. Attach GCP billing or contest credits to `greenledger-aibc`, then deploy (`deploy/README_deploy.md`). Firebase Hosting without billing does **not** replace the API.
 2. Upload `demo-output/GreenLedger_demo_cinematic_3min.mp4` (178s English; see `docs/demo-video.md`) to YouTube/Vimeo/Drive.
-3. Create a **public GitHub** remote when ready (FAQ-mandatory). Do not invent the URL in the proposal until it exists.
+3. Public GitHub: https://github.com/yigenfeng0707-netizen/greenledger (already pushed).
 4. Deck is `docs/greenledger-deck.pptx` / `.pdf` (10 slides). Long-form remains `docs/proposal.pdf`.

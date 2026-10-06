@@ -1,6 +1,8 @@
 # Delivery notes (working)
 
-Do not paste secrets. Do not invent live URLs.
+## Public GitHub
+
+https://github.com/yigenfeng0707-netizen/greenledger (public, SSH push 2026-10-06). MP4 is local-only.
 
 ## Demo video (as of 2026-10-06 evening)
 

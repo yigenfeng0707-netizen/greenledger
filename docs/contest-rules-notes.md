@@ -66,7 +66,7 @@ Local mapping:
 |---|---|
 | Deployed HTTPS | **Missing** — Cloud Run blocked on billing |
 | Video < 3 min | Local MP4 `demo-output/GreenLedger_demo_cinematic_3min.mp4` (**178s**, 2026-10-06). **Not uploaded.** How-to: `docs/demo-video.md` |
-| Public GitHub | LICENSE + hygiene ready; **no git remote**; do not push until captain creates the repo |
+| Public GitHub | **https://github.com/yigenfeng0707-netizen/greenledger** (public, master @ latest push) |
 | Deck / proposal PDF | Slide deck: `docs/greenledger-deck.pptx` + `docs/greenledger-deck.pdf` (10 pages). Long-form: `docs/proposal.pdf` |
 
 ## Firebase Hosting as a billing workaround — **no**

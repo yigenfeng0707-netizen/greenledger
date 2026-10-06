@@ -120,8 +120,7 @@ https://aibuildercup.com/Faqs.html 与 https://aibuildercup.com/themes.html ）�
 - [ ] **3 分钟英文视频**：本地 MP4 已合成
       `demo-output/GreenLedger_demo_cinematic_3min.mp4`（**178s**，未上传）。
       复现：`docs/demo-video.md`。队长上传 YouTube/Vimeo/Drive 后才算提交。
-- [ ] **公开 GitHub**：FAQ 已确认必交。本地 **无 git remote**；已有 MIT `LICENSE`；
-      `.tmp_*` 已 ignore。创建远端与 push **等队长本人做**。
+- [x] **公开 GitHub**：https://github.com/yigenfeng0707-netizen/greenledger （public；MP4 未进 git）
 - [ ] 提交前自查：赛道 Sustainability & Social Impact、全英文、链接无痕可开
 
 ## 5. 日历提醒
