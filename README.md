@@ -1,6 +1,7 @@
 # GreenLedger — ESG Disclosure Agent
 
-**Google Cloud AI Builder Cup 2026 · Track: Sustainability & Social Impact**
+**Google Cloud AI Builder Cup 2026 · Track: Sustainability & Social Impact**  
+**Team (2/4, as of 2026-10-06):** Leader **FENG YIGEN** (fengyigen@qq.com) + **Biswajit Mondal** (rmondal8436dgp@gmail.com)
 
 GreenLedger is an agentic pipeline that turns an SME's scattered source documents
 (utility bills, fuel logs, flight itineraries, waste memos) into an audit-grade,

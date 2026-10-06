@@ -2,6 +2,8 @@
 
 > 官网：https://aibuildercup.com （Hack2skill 承办平台）
 > 官方规则以网站 T&C 为准；本清单是操作提醒，不是规则翻译。
+>
+> **当前队伍（2 人，2026-10-06）：** Leader **FENG YIGEN** / fengyigen@qq.com + **Biswajit Mondal** / rmondal8436dgp@gmail.com。提交最低人数已满足。
 
 ## ✅ 0. 报名状态（2026-10-01 确认通过）
 
@@ -19,6 +21,7 @@
       - Dashboard：https://hack2skill.com/event/aibuildercup2026/dashboard/interactions
 - [x] 下一步：Dashboard 选定赛道（Sustainability & Social Impact）+ 组队（10/11 截止）
   - 10/1 已完成：**队伍 GreenLedger 已创建**（FENG YIGEN 为 Leader，Team Management 页可管理）
+  - **10/6 晚：队伍已 2 人** — FENG YIGEN (Leader) + **Biswajit Mondal** / rmondal8436dgp@gmail.com（Discord `devmini`）
   - **10/1 傍晚复核**：Challenges 页已可见 **Sustainability & Social Impact**（赛道条目可见；正式提交时再确认绑定）
   - 队伍邀请链接（通用，队友过审批后可打开申请入队）：
     https://hack2skill.com/event/aibuildercup2026/registration?isRequest=true&utm_campaign=aibuildercup2026&utm_term=6abdf55dcc541d941040e208&utm_medium=url
@@ -30,7 +33,7 @@
 ## ⚠️ 0.5 队友审批阻塞（10/1 发现，当前最高风险项）
 
 - **10/1 傍晚官网双侧登录复核（事实）**：
-  - Leader `fengyigen@qq.com`：Dashboard 可进；队伍 **GreenLedger**；成员仅 **FENG YIGEN (Leader)**；
+  - Leader `fengyigen@qq.com`：Dashboard 可进；队伍 **GreenLedger**；**当时**成员仅 **FENG YIGEN (Leader)**（**已过时**：2026-10-06 晚已 2 人，见上方当前队伍）；
     Challenges 可见 **Sustainability & Social Impact**；组队截止文案仍为 **October 11, 2026**；
     Manage Requests Sent：**Feng Si Hang / INVITED**（误发 **5263731316_6256** 已于 10/1 晚用 Revert 撤销）
   - 队友 `526371316@qq.com`：可登录但弹窗 **You're Waitlisted!**；Team Management 显示
@@ -69,7 +72,7 @@
     AI Solutions Engineer、30 YoE、公司邮箱 clinlian@126.com、T&C 已勾
   - 点 Register Now → Proceed 后立刻弹 **You're Waitlisted!**；Team Management 仍写
     **"Team formation round has ended. No further actions can be performed."**
-  - **GreenLedger 仍只有 Leader 1 人**；Waitlist 账号无法 Accept 邀请（与 Feng Si Hang 同类阻塞）
+  - **当时 GreenLedger 仍只有 Leader 1 人**；Waitlist 账号无法 Accept 邀请（与 Feng Si Hang 同类阻塞）
 - **10/6 晨 Innovator Dashboard 复核（clinlian@126.com）**：
   - URL：`/innovator-dashboard?tabIndex=2`（My Applications）→ 申请表为空（Record Not Found）
   - 切到 **My Initiatives**（tabIndex=0）：已列出 **AI Builder Cup 2026**
@@ -89,10 +92,13 @@
 - [ ] 通读 T&C 中关于知识产权、团队变更、资格核验的条款（待审批间隙阅读）
 - [ ] 在 Dashboard 选择/确认赛道：**Sustainability & Social Impact**（需审批解锁后操作）
 
-## 2. 组队（10/11 截止，目标 3 人）
-- [ ] 邀请队友注册，并通过平台的 Team 邀请功能组队（团队 2–4 人）
-      **2026-10-06**：仍仅 Leader 1 人。Waitlist 号无法 Accept。最小动作：Discord +
-      只邀已过审无队者；粘贴 `docs/team_invite.md`。不要再为入队新开候补账号。
+## 2. 组队（10/11 截止；已 2 人，可选扩至 3–4）
+- [x] **2026-10-06 晚**：队伍 **GreenLedger 已满 2 人**（提交最低人数已满足）
+      - Leader：**FENG YIGEN** / fengyigen@qq.com
+      - Member：**Biswajit Mondal**（Discord `devmini`）/ rmondal8436dgp@gmail.com
+      - 路径：对方在 Received 提交 REQUESTED，队长 Accept（邮件 Invite 因 pending 失败，故不在 Sent）
+      - 对方已确认在队且收到邮件。组队截止仍为 **11 Oct**；可选第 3–4 人须已过审、无队
+- [ ] 若还要扩到 3–4 人：只邀已过审无队者；粘贴 `docs/team_invite.md`。不要再为入队新开候补账号。
 - [ ] 队友同样必须在职、21+
 - [ ] 角色建议：你（后端/AI 管道）+ 前端/全栈 + 英文叙事（提案+视频）
 - [ ] 若入围决赛：**每队仅 2 人赴新加坡**（差旅住宿官方赞助），提前想好谁去
@@ -104,8 +110,8 @@
       该账号 **0 个 billing account**；`run.googleapis.com` 未启用。命令已写在
       `deploy/README_deploy.md`，**在绑结算前不要假装已部署**
 - [x] 确认能访问：aibuildercup.com、YouTube（demo Unlisted：https://youtu.be/n2NBXwpXshQ）
-- [ ] 加入比赛官方 Discord：https://discord.gg/x5GRzJbKpa（关注 credits 发放与赛道讲解）
-      可粘贴组队话术：`docs/team_invite.md`
+- [x] 已加入官方 Discord（账号 根深叶茂）；#support-tickets 已有 GreenLedger credits 请求（2026-10-06 21:37，频道帖，无独立工单号）。勿重复开票。
+      组队话术：`docs/team_invite.md`
 
 ## 4. 提交物清单（10/18 截止）
 

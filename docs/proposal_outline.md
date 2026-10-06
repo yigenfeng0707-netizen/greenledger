@@ -49,9 +49,11 @@ Drop messy documents → get an audit-grade, IFRS S2-aligned GHG disclosure draf
   (financed-emissions data) — name the wedge, keep it short.
 
 ## 6. Team (≈0.25 page)
-- Confirmed: FENG YIGEN (leader, backend/AI). Open: frontend/full-stack, English
-  narrative. State availability through Dec 4 finale. Do not list waitlisted names.
+- Confirmed (2): Leader FENG YIGEN (fengyigen@qq.com, backend/AI) +
+  Biswajit Mondal (rmondal8436dgp@gmail.com / Discord `devmini`).
+  Optional 3–4 still open. State availability through Dec 4 finale.
+  Do not list waitlisted names.
 
 ## 7. Link
 - Deployed prototype URL + 3-minute video link (unlisted OK where allowed).
-- As of 2026-10-06 both URLs are still blank; full draft: `docs/proposal.md`.
+- Prototype HTTPS: still pending GCP credits/billing. Demo video (do not duplicate): https://youtu.be/n2NBXwpXshQ. Full draft: `docs/proposal.md`.

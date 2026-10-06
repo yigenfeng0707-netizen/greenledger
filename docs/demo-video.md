@@ -83,7 +83,7 @@ Local file: `demo-output/GreenLedger_demo_cinematic_3min.mp4` (**178s**, gitigno
 4. Visibility: **Unlisted** (or Public). Wait until processing finishes.
 5. Copy the watch URL (`youtube.com/watch?v=...`) and paste it into `docs/proposal.md` section 7 and the Hack2skill form.
 
-**Done (2026-10-06):** Unlisted watch URL https://youtu.be/n2NBXwpXshQ (title in Studio may still show the filename until edited).
+**Done (2026-10-06):** Unlisted watch URL https://youtu.be/n2NBXwpXshQ. Studio title target: `GreenLedger — AI Builder Cup 2026 demo`.
 
 **Google Drive (public link)**
 

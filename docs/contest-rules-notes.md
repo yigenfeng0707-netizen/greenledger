@@ -62,7 +62,7 @@ Treat **public GitHub** and **deck-as-PDF** as **mandatory**, not optional extra
 
 Local mapping:
 
-| Required artifact | This repo (2026-10-06 evening) |
+| Required artifact | This repo (2026-10-06, team = 2: Leader FENG YIGEN / fengyigen@qq.com + Biswajit Mondal / rmondal8436dgp@gmail.com) |
 |---|---|
 | Deployed HTTPS | **Missing** — Cloud Run blocked on billing |
 | Video < 3 min | **https://youtu.be/n2NBXwpXshQ** (YouTube Unlisted, **2:59**, uploaded 2026-10-06). Local source: `demo-output/GreenLedger_demo_cinematic_3min.mp4` (gitignored). How-to: `docs/demo-video.md` |

@@ -2,7 +2,7 @@
 
 **Track:** Sustainability and Social Impact  
 **Event:** Google Cloud AI Builder Cup 2026  
-**Team:** GreenLedger (1 confirmed member as of 2026-10-06; recruiting to 2–4)  
+**Team:** GreenLedger (2 confirmed members as of 2026-10-06: Leader **FENG YIGEN** / fengyigen@qq.com + **Biswajit Mondal** / rmondal8436dgp@gmail.com; optional 3–4 still open)  
 **Prototype URL:** not deployed yet (target: Cloud Run service `greenledger-api` in `asia-southeast1` on GCP project `greenledger-aibc`)  
 **Public GitHub:** https://github.com/yigenfeng0707-netizen/greenledger  
 **Demo video URL:** https://youtu.be/n2NBXwpXshQ (Unlisted, 2:59 / 178s; local source `demo-output/GreenLedger_demo_cinematic_3min.mp4`)
@@ -82,12 +82,11 @@ Live Gemini verification: sample pack “GreenLeaf Trading Co.”, **12 activity
 
 | Role | Status | Notes |
 |---|---|---|
-| Leader / backend & AI pipeline | **FENG YIGEN** (confirmed) | Hangzhou, JAPAC; designs the agent graph, Gemini integration, and Cloud Run path. Available through the 4 December 2026 finale. |
-| Frontend / full-stack | **Open** | UI polish, demo reliability, optional Firebase Hosting split. |
-| English narrative | **Open** | Proposal PDF finish, 3-minute voiceover, judge path timing. |
-| Optional 4th (ESG / domain review) | **Open** | Factor-library QA; not required to ship the demo. |
+| Leader / backend & AI pipeline | **FENG YIGEN** (confirmed) | Email **fengyigen@qq.com**. Hangzhou, JAPAC; designs the agent graph, Gemini integration, and Cloud Run path. Available through the 4 December 2026 finale. |
+| Member | **Biswajit Mondal** (confirmed) | Email **rmondal8436dgp@gmail.com**; Discord `devmini`. Joined 2026-10-06 via Accepted request. |
+| Optional 3rd / 4th | **Open** | UI polish, English narrative, or ESG review — not required to meet the 2-member submit rule. |
 
-Official team formation closes **11 October 2026**. Platform rule: at least two members to submit. Additional registered accounts for this team are still on Hack2skill waitlist and **cannot Accept** until shortlisted. This proposal does not list names of people who have not joined.
+Official team formation closes **11 October 2026**. Platform rule: at least two members to submit — **met**. Waitlisted accounts still cannot Accept. This proposal does not list names of people who have not joined.
 
 ## 7. Links and submission checklist
 

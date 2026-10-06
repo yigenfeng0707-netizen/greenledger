@@ -67,7 +67,7 @@ Total tCO2e is stable in Gemini (13.69). Gap count is model-variable (5–6). Re
 - [ ] Voiceover: `docs/video_narration.md` (not recorded)
 - [x] Mock dry run 2026-10-06: 12 records, 14.00 tCO2e, 4 gaps, 5-section draft, Q&A cited A4
 - [x] Gemini dry run 2026-10-06: 12 records, **13.69 tCO2e**, **5** gaps, 5-section draft, Q&A cited A4 (~9 min)
-- [ ] Captions on; no dead air; end card with team + track name (1 confirmed member + open roles)
+- [ ] Captions on; no dead air; end card with team + track name (2 confirmed: Leader FENG YIGEN / fengyigen@qq.com + Biswajit Mondal / rmondal8436dgp@gmail.com)
 - [ ] Full video edit / YouTube-Vimeo-Drive upload (not done this round)
 
 ## Dry run log
